@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Contact Me - Student Developer Portfolio"
+    />
+    <meta name="keywords" content="HTML,CSS,Portfolio,Contact" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio - Contact</title>
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="banner">My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <nav class="mobile-navbar">
+      <div class="nav-top">
+        <h1 class="banner">My Portfolio</h1>
+        <button class="menu-btn">☰</button>
+      </div>
+
+      <ul class="mob-nav-links none">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <section class="contact-hero">
+      <div class="contact-hero-content">
+        <h1>Get In Touch</h1>
+        <p>I'd love to hear from you!</p>
+      </div>
+    </section>
+
+    <section class="contact-content">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p class="contact-intro">
+            Feel free to reach out to me through any of the following methods.
+            I'm always open to discussing new projects, opportunities, or just
+            having a chat!
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-text">
+                <h3>Email</h3>
+                <a href="mailto:arbaz@example.com">arbaz@example.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <a href="tel:+919888888888">+91 98888 88888</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Hyderabad, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <h2>Send Me a Message</h2>
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-green">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
