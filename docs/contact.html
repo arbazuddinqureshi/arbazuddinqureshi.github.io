@@ -1,150 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Contact Me - Student Developer Portfolio"
-    />
-    <meta name="keywords" content="HTML,CSS,Portfolio,Contact" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Portfolio - Contact</title>
-    <script defer src="js/script.js"></script>
-  </head>
 
-  <body>
-    <nav class="navbar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Contact Me - Student Developer Portfolio" />
+  <meta name="keywords" content="HTML,CSS,Portfolio,Contact" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio - Contact</title>
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <h1 class="banner">My Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <nav class="mobile-navbar">
+    <div class="nav-top">
       <h1 class="banner">My Portfolio</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-      </ul>
-    </nav>
-    <nav class="mobile-navbar">
-      <div class="nav-top">
-        <h1 class="banner">My Portfolio</h1>
-        <button class="menu-btn">☰</button>
-      </div>
+      <button class="menu-btn">☰</button>
+    </div>
 
-      <ul class="mob-nav-links none">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-      </ul>
-    </nav>
+    <ul class="mob-nav-links none">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
 
-    <section class="contact-hero">
-      <div class="contact-hero-content">
-        <h1>Get In Touch</h1>
-        <p>I'd love to hear from you!</p>
-      </div>
-    </section>
+  <section class="contact-hero">
+    <div class="contact-hero-content">
+      <h1>Get In Touch</h1>
+      <p>I'd love to hear from you!</p>
+    </div>
+  </section>
 
-    <section class="contact-content">
-      <div class="contact-container">
-        <div class="contact-info">
-          <h2>Contact Information</h2>
-          <p class="contact-intro">
-            Feel free to reach out to me through any of the following methods.
-            I'm always open to discussing new projects, opportunities, or just
-            having a chat!
-          </p>
+  <section class="contact-content">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p class="contact-intro">
+          Feel free to reach out to me through any of the following methods.
+          I'm always open to discussing new projects, opportunities, or just
+          having a chat!
+        </p>
 
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-text">
-                <h3>Email</h3>
-                <p>arbaz@example.com</p>
-              </div>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>arbaz@example.com</p>
             </div>
+          </div>
 
-            <div class="contact-item">
-              <div class="contact-text">
-                <h3>Phone</h3>
-                <p>+91 98888 88888</p>
-              </div>
+          <div class="contact-item">
+            <div class="contact-text">
+              <h3>Phone</h3>
+              <p>+91 98888 88888</p>
             </div>
-            <div class="contact-item">
-              <div class="contact-text">
-                <h3>Connect with Me On</h3>
-                <div class="socials">
-                  <a
-                    href="https://www.linkedin.com/in/mohammed-arbazuddin-qureshi-551a51243/"
-                    aria-label="LinkedIn"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M4.98 3.5c0 1.38-1.11 2.5-2.48 2.5A2.49 2.49 0 0 1 0 3.5C0 2.12 1.11 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.09h4.56V24H.22zM7.98 8.09h4.37v2.17h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.48 3.04 5.48 6.99V24h-4.56v-7.73c0-1.84-.03-4.21-2.56-4.21-2.56 0-2.95 2-2.95 4.07V24H7.98z"
-                      />
-                    </svg>
-                  </a>
-                  <a href="https://github.com/arbazuddinqureshi" aria-label="GitHub">
-                    <svg 
-                      class="github"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.02c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.8 0c2.21-1.48 3.18-1.17 3.18-1.17.63 1.57.23 2.73.11 3.02.74.8 1.19 1.82 1.19 3.07 0 4.4-2.69 5.36-5.25 5.64.41.36.78 1.07.78 2.16v3.2c0 .31.21.68.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-text">
-                <h3>Location</h3>
-                <p>Hyderabad, India</p>
+          </div>
+          <div class="contact-item">
+            <div class="contact-text">
+              <h3>Connect with Me On</h3>
+              <div class="socials">
+                <a href="https://www.linkedin.com/in/mohammed-arbazuddin-qureshi-551a51243/" aria-label="LinkedIn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M4.98 3.5c0 1.38-1.11 2.5-2.48 2.5A2.49 2.49 0 0 1 0 3.5C0 2.12 1.11 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.09h4.56V24H.22zM7.98 8.09h4.37v2.17h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.48 3.04 5.48 6.99V24h-4.56v-7.73c0-1.84-.03-4.21-2.56-4.21-2.56 0-2.95 2-2.95 4.07V24H7.98z" />
+                  </svg>
+                </a>
+                <a href="https://github.com/arbazuddinqureshi" aria-label="GitHub">
+                  <svg class="github" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.02c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.8 0c2.21-1.48 3.18-1.17 3.18-1.17.63 1.57.23 2.73.11 3.02.74.8 1.19 1.82 1.19 3.07 0 4.4-2.69 5.36-5.25 5.64.41.36.78 1.07.78 2.16v3.2c0 .31.21.68.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="contact-form-wrapper">
-          <h2>Send Me a Message</h2>
-          <form class="contact-form" action="#" method="POST">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" required />
+          <div class="contact-item">
+            <div class="contact-text">
+              <h3>Location</h3>
+              <p>Hyderabad, India</p>
             </div>
-
-            <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" required />
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                required
-              ></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-green">Send Message</button>
-          </form>
+          </div>
         </div>
       </div>
-    </section>
-  </body>
+
+      <div class="contact-form-wrapper">
+        <h2>Send Me a Message</h2>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-green">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
